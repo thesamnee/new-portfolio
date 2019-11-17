@@ -1,0 +1,120 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+    font-family: "Montserrat", sans-serif;
+}
+.vid-div {
+  height: 100vh;
+}
+
+.vid-div video {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+.vid-div h1,
+.bio {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 80px;
+  color: white;
+}
+
+.contact-sect {
+  height: 100vh;
+  color: black;
+  background: black;
+}
+
+.contact-div {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+.bio-div{
+    position: relative;
+    display: block;
+    top: 2500px;
+    z-index: 2;
+}
+#img-div{
+    position: absolute;
+    display: block;
+    top: 4000px;
+    right: 40%;
+    z-index: 2;
+    overflow: hidden;
+}
+#portfolio-title{
+ font-size: 7vh;   
+}
+.portfolio-sect{
+    height: 70vh;
+    width: 100%;
+    background: black;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    white-space: nowrap;
+}
+.portfolio-item{
+    width: 300px;
+    height: 300px;
+    display: inline-block;
+    margin: 30px;
+}
+.portfolio-img{
+    width: 100%;
+    height: 100%;
+}
+.port-item-title, #portfolio-title{
+    color: rgb(235, 235, 235);
+    font-size: 5vh;
+    text-align: center;
+    background: rgb(17, 17, 17);
+    width: 100%;
+}
+a{
+    text-emphasis: none;
+    text-decoration: none;
+}
+.port-item-desc{
+    color: rgb(235, 235, 235);
+    font-size: 3vh;
+    text-align: center;
+    background: rgb(17, 17, 17);
+    width: 100%; 
+    display: block;
+    padding: 10px 0px;
+}
+.logo{
+    width: 30vh;
+    height: 30vh;
+    margin-bottom: 200px;
+}
+.bio {
+  position: absolute;
+  color: white;
+  font-family: "Montserrat", sans-serif;
+  line-height: 10vh;
+  font-size: 3vh;
+  width: 80vw;
+  margin-left: 30px;
+  margin-right: 30px;
+}
+#contact {
+  position: relative;
+  text-align: center;
+  color: white;
+  font-family: "Montserrat", sans-serif;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  line-height: 10vh;
+  font-size: 4vh;
+}
