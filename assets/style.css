@@ -85,7 +85,7 @@ a{
 }
 .port-item-desc{
     color: rgb(235, 235, 235);
-    font-size: 3vh;
+    font-size: 100%;
     text-align: center;
     background: rgb(17, 17, 17);
     width: 100%; 
